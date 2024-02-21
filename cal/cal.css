@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+#cal{
+    height: 420px;
+    width: 270px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    box-shadow: 2px 4px black;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    overflow: hidden;
+}
+
+#main{
+    height: 420px;
+    width: 270px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    box-shadow: 2px 4px black;
+    display: flex;
+    flex-direction: column;
+}
+#screena{
+    height: 80px;
+    background-color: pink;
+}
+#calbody{
+    background-color: gainsboro;
+    align-items: center;
+    display: grid;
+    height: 320px; 
+    grid-template-columns: repeat(4, 1fr);
+    
+    padding: 20px;
+}
+
+#grid_mid1, #grid_mid{
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#grid_mid{
+    background-color: blue;
+}
+
+#grid_cal1{
+    background-color: white;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cal.css">
+    <script src="./cal.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="cal">
+        <div class="main">
+            <div id="screena">
+            <label for="screen" id="screen" value="display"></label>
+        </div>
+            <div id="calbody">
+                <button type="text" id="grid_mid1" value="MC" onclick="display.value =display.value.toString().slice(0, -1)">MC</button>
+                <button type="text" id="grid_mid1" value="AC" onclick="display.value =' ' ">AC</button>
+                <button type="text" id="grid_mid1" value="+"  onclick="display.value +='+' ">+</button>
+                <button type="text" id="grid_mid1" value="-"  onclick="display.value +='-' ">-</button>
+                <button type="text" id="grid_mid1" value="7" onclick="display.value =' ' ">AC</button>
+                <button type="text" id="grid_mid1" value="8"  onclick="display.value +='+' ">+</button>
+                <button type="text" id="grid_mid1" value="9"  onclick="display.value +='-' ">-</button>
+                <button type="text" id="grid_mid1" value="*"  onclick="display.value +='-' ">-</button>
+                <button type="text" id="grid_mid1" value="4" onclick="display.value =' ' ">AC</button>
+                <button type="text" id="grid_mid1" value="/"  onclick="display.value +='+' ">+</button>
+                <button type="text" id="grid_mid1" value="-"  onclick="display.value +='-' ">-</button>
+                <button type="text" id="grid_mid1" value="1" onclick="display.value =' ' ">AC</button>
+                <button type="text" id="grid_mid1" value="2" onclick="display.value =' ' ">AC</button>
+                <button type="text" id="grid_mid1" value="3" onclick="display.value =' ' ">AC</button>
+                <button type="text" id="grid_mid" value="=" onclick="display.value = eval(display.value)"></button>
+                <button type="text" id="grid_mid1" value="0" onclick="display.value +=' ' ">0</button>
+                <button type="text" id="grid_mid1" value="." onclick="display.value ='.' ">.</button>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
